@@ -1,0 +1,73 @@
+*{
+    margin : 0;
+    padding : 0;
+    background-color: lightgrey;
+}
+.main{
+    display  : flex;
+    justify-content : center;
+   align-items: center;
+   height : 100vh;
+}
+.profile{
+    border : 2px solid lightgrey;
+    height : 60vh;
+    width : 20vw;
+    border-radius : 40px;
+    background-color: white;
+    position : relative;
+
+
+}
+.bg{
+    background-image: url('nature.jpg');
+    height : 30%;
+    width : 100%;
+    object-fit : cover;
+    background-repeat: no-repeat;
+    border-radius : 40px;
+    background-size : cover;
+    background-position : center;
+    overflow: hidden;
+
+
+}
+.pfp{
+    background-image : url('pfp.jpg');
+    height : 100px;
+    width : 100px;
+   position : absolute;
+    top : 70px;
+    left : 90px;
+    border-radius : 50%;
+    border : 5px solid white;
+
+
+
+}
+.details {
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+     background: transparent;
+    text-align: center;
+
+}
+.details h2 {
+    margin-top : 60px;
+    background-color: white;
+}
+.details p{
+    background-color: white;
+}
+.numbers{
+    font-size : 20px;
+    font-weight : 10;
+    margin-top : 20px;
+    display : flex;
+    border : 2px solid gray;
+    border-radius : 30%;
+
+}
